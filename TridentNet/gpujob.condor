@@ -1,0 +1,13 @@
+Universe   = vanilla
+Executable = run.sh
+Arguments  = 
+Log        = log
+Output     = out
+Error      = err
+request_GPUs =1 
+#+SJTU_GPUModel = "A100_80G"
+#rank = (OpSysName == "CentOS")
+#requirements = (machine == "bl-hd-1.phy.sjtulocal")
+
+Queue
+
