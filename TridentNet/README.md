@@ -18,3 +18,5 @@ If you want to furture modify the scripts to complete your own task, you can:
 * modify ```gnn/conig``` to change the architecture of TridentNet, including the input format, output format, layers of ParticleDynamicEdgeConv block and so on. 
 * modify ```gnn/myDataset.py``` to change the data that can be seen by TridentNet.
 * modify ```gnn/train_test.py``` to change the details of training.
+
+To run the model on bl-0, just type ``` condor_submit gpujob.condor ```.
